@@ -9,6 +9,9 @@
 <body>
     <h1>Uladzimir Khartaniuk</h1>
     <h2>
+        <a href="/Form_Validation/index.php">Form_Validation</a>
+    </h2>
+    <h2>
         <a href="/LogIn_Form/index.php">LogIn_Form</a>
     </h2>
     <h2>
