@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/Form_Validation/style0.css">
+    <link rel="stylesheet" href="/Form_Validation/labels/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Application form</h2>
+        </div>
+
+        <form class="form" id="form">
+            <div class="form-control">
+                 <label>Imie</label>
+                 <input type="text" placeholder="Brendan" id="name">
+                 <i class="fas fa-check-circle"></i>
+                 <i class="fas fa-exclamation-circle"></i>
+                 <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Nazwisko</label>
+                <input type="text" placeholder="Fraser" id="surname">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+           </div>
+
+           <div class="form-control">
+                <label>Data urodzenia</label>
+                <input type="text" placeholder="dd-mm-yyyy" id="date">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Pesel</label>
+                <input type="text" placeholder="np. 02390248345" id="pesel">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Miasto</label>
+                <input type="text" placeholder="" id="city">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Ulica</label>
+                <input type="text" placeholder="" id="street">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Numer domu</label>
+                <input type="text" placeholder="" id="building">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Numer mieszkania</label>
+                <input type="text" placeholder="" id="flat">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Kod pocztowy</label>
+                <input type="text" placeholder="" id="postcode">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Telefon</label>
+                <input type="text" placeholder="" id="phone">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Prawo jazdy</label>
+                <!-- <h5>Tak, mam prawo jazdy</h5> -->
+                <input type="checkbox" placeholder="" id="car">
+                <!-- <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i> -->
+                <small id="message">*wybierz, jeśli posiadasz</small>
+            </div>
+
+            <div class="form-control">
+                <label>Gender</label>
+                <br>
+                <select name="gender" id="gender" required>
+                  <option value="">Please select one…</option>
+                  <option value="female">Female</option>
+                  <option value="male">Male</option>
+                  <option value="non-binary">Non-Binary</option>
+                  <option value="other">Other</option>
+                  <option value="Prefer not to answer">Perfer not to Answer</option>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Uwagi</label>
+                <textarea name="message" rows="5" cols="33" placeholder="..." id="info"></textarea>
+            </div>
+
+            <button>Submit</button>
+
+        </form>
+
+    </div>
+
+    <script src="/Form_Validation/script.js"></script>
+</body>
+</html>
